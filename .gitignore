@@ -1,0 +1,12 @@
+# Exclude report and excel
+Report.pdf
+Descriptive_Excel.xlsx
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
