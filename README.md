@@ -53,11 +53,11 @@ Key findings from exploratory analysis:
 | Best strategy type | 1-stop (11.3 avg pts) |
 | Worst opening compound | Hard (3.8 avg pts) |
 
-<p align="center">
+<p align="left">
   <img src="visuals/points_vs_grid.png" width="45%" />
   <img src="visuals/strategy_mix_by_track.png" width="45%" />
 </p>
-<p align="center">
+<p align="left">
   <img src="visuals/correlation_matrix.png" width="45%" />
   <img src="visuals/pit_loss_distribution.png" width="45%" />
 </p>
@@ -66,14 +66,14 @@ Key findings from exploratory analysis:
 
 Two prediction tasks using scikit-learn pipelines with `ColumnTransformer` preprocessing:
 
-**Regression -Race Points**
+**Regression - Race Points**
 
 | Model | RMSE | MAE | R² |
 |-------|------|-----|-----|
 | Linear Regression | ~3.5 | ~2.5 | ~0.65 |
 | **Random Forest (400 trees)** | **~2.8** | **~2.0** | **~0.75** |
 
-**Classification -Podium Finish**
+**Classification - Podium Finish**
 
 | Model | Accuracy | Precision | Recall | F1 | ROC AUC |
 |-------|----------|-----------|--------|-----|---------|
